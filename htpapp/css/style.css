@@ -1,0 +1,400 @@
+/*
+    HTP APP - Responsive Bootstrap 
+--------------------------------------------------------------------------------------------------------*/
+
+/* Body */
+
+body{   
+    width: 100%; 
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------*/	
+
+/* Overlay for the fullscreen Slideshow Background (index3) */
+
+#overlay{
+	top: 0;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-repeat: repeat;
+	background-image: url('../img/overlay.png');
+	z-index: -997;
+	opacity:0.5;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------*/	
+
+
+/* Title Header About Section*/
+
+#workingtext {
+	font-family: 'Passion One', cursive;
+	color: #323232;
+	font-size: 4.50em;
+	font-weight:normal;
+	padding: 110px 30px 0px 30px;
+	height: 100%;
+	margin: 0 auto;
+	text-align: center;
+	list-style-type: none;
+	text-transform: uppercase;
+	
+
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------*/	
+
+
+/* Container logo */
+
+.container-logo {
+    position: relative;
+	width:114px;
+    margin:0 auto;
+    padding:0px 0px 0px 0px;
+	opacity:1;
+}
+
+/* Logo */
+
+.logo { 
+	margin: 0 auto; 
+	opacity: 0; 
+	position: fixed; 
+	top: -600px; 
+	z-index:999; 
+	text-align:center;}
+
+.logo a { 
+	display:block; 
+}
+
+.logo span { 
+	position: absolute; 
+	top:-5000px; }
+
+
+/*-----------------------------------------------------------------------------------------------------------------------*/	
+
+/* Container  Copyright Text*/	
+  
+.container-copyright {
+	margin:0 auto;
+       position: relative;
+        max-width: 400px;
+		height:10px;
+		padding:10px 0px 0px 0px;
+		text-align: center;
+		font-family: 'Lato', cursive;
+	color: #7a7979;
+	font-size: 11px;
+	font-weight:normal;
+	z-index:2;
+	
+      }
+
+
+
+/*-----------------------------------------------------------------------------------------------------------------------*/	
+
+/* Container Text First Page */
+
+.container-first-text{  
+		margin: 0 auto; 
+        max-width: 1080px;
+		padding:0px 0px 0px 0px;
+		text-align: center;
+      }
+
+.container-first-text p{ 
+	font-family: 'Passion One', cursive;
+	color: #323232;
+	font-size: 4.50em;
+	font-weight:;
+	padding: 100px 20px 0px 20px;
+	text-align: center;
+	list-style-type: none;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 2px #;
+	}
+
+
+.container-second-text{ 
+		margin: 0 auto;   
+        max-width: 680px;
+		padding:0px 0px 0px 0px;
+		text-align: center;
+      }
+
+.container-second-text p{
+	font-family: 'Lato', cursive;
+	color: #323232;
+	font-size: 1.12em;
+	font-weight:normal;
+	padding: 0px 7px 10px 7px;
+	text-align: center;
+	list-style-type: none;
+	font-weight:400;
+	line-height:25px;
+}
+
+
+/* Font Colors */
+
+.font-dark {
+	color:#525252;
+}
+
+.font-blue {
+	color:#35bae5;	
+}
+
+.font-green {
+	color:#b2ce56;	
+}
+
+.font-yellow {
+	color:#f2c133;
+}
+
+.font-pink {
+	color:#fb67d5;
+}
+
+.font-white {
+	color:#fff;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------*/	
+
+/* Container Form */
+	  
+.container-form {
+        margin: 0 auto;
+        max-width: 312px;
+		padding:12px 0px 0px 0px;
+		
+		
+      }
+
+
+/* Social Media Icons */
+
+.socmed {
+	text-align: center;
+	padding-bottom:40px;
+	margin: 0 auto;
+	width: 255px;
+	overflow: hidden;
+}
+
+
+.socmed-footer {
+	text-align: center;
+	padding-top:10px;
+	padding-left:10px;
+	margin: 0 auto;
+	width: 255px;
+	overflow: hidden;
+}
+
+
+.twitter a,.facebook a,.googleplus a,.linkedin a,.rss a,.twitter2 a,.youtube a {
+	float:left;
+	background:url(../img/socmed.png) no-repeat left bottom;
+	text-indent:8000px;
+	width:32px;
+	height:32px;
+	margin-right:10px;
+	-o-transition:all .3s;
+	-moz-transition:all .3s;
+	-webkit-transition:all .3s;
+	-ms-transition:all .3s;
+}
+.twitter a:hover,.facebook a:hover,.googleplus a:hover,.linkedin a:hover,.rss a:hover,.twitter2 a:hover,.youtube a:hover{
+	background:url(../img/socmed.png) no-repeat left top;
+}
+.twitter,.twitter a{background-position:-0px bottom}
+.twitter a:hover{background-position:-0px top}
+.twitter2,.twitter2 a{background-position:-528px bottom}
+.twitter2 a:hover{background-position:-528px top}
+.facebook,.facebook a{background-position:-33px bottom}
+.facebook a:hover{background-position:-33px top}
+.linkedin,.linkedin a{background-position:-133px bottom}
+.linkedin a:hover{background-position:-133px top}
+.youtube,.youtube a{background-position:-594px bottom}
+.youtube a:hover{background-position:-594px top}
+.googleplus,.googleplus a{background-position:-594px bottom}
+.googleplus a:hover{background-position:-594px top}
+
+/*-----------------------------------------------------------------------------------------------------------------------*/	
+
+
+/* Block Home*/
+
+.blockhome {
+	padding: 10px 0 50px 0;
+	position: relative;
+	background: url(../img/bg-light/shattered.png) repeat; 
+	background-position: center center;
+}
+
+/* Scroll Button home*/
+
+.landing_enter {
+	width:52px; 
+	display:block;
+	position:relative;
+	left:50%;
+	top:50%;
+	margin:30px 0 0 -29px;
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);	
+	transition: all 800ms; 
+	-webkit-transition: all 800ms; 
+	-moz-transition:all 800ms; 
+	-o-transition: all 800ms;	
+	opacity: 0.7;
+}
+
+
+
+.landing_enter img { 
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:52px;
+	height:28px;
+	opacity: 1; 
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+	transition: opacity 300ms; 
+	-webkit-transition: opacity 300ms; 
+	-moz-transition:opacity 300ms; 
+	-o-transition: opacity 300ms;	
+	opacity: 1;
+}
+
+
+.landing_enter:hover img { 
+	opacity: 1; 
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);	
+}
+
+
+.landing_enter:hover { 
+	opacity: 1; 
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);	
+}
+
+
+.landing_enter.hided {
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------------------*/	
+
+
+/* Notify Form - Home */
+
+footer #footer-inner .footer-item #success{
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -o-border-radius: 5px;
+        -ms-border-radius: 5px;
+        border-radius: 5px;
+        background-color:#67B013;
+        color:#FFF;
+        margin:0 auto;
+        padding:12px 0px 11px 0px;
+        width:312px;
+      }
+      
+footer #footer-inner .footer-item .error{
+        color:#F73E05;
+      }
+       
+        
+footer #footer-inner .footer-item form{
+        position:relative;
+        margin:0 auto;
+      }
+        
+footer #footer-inner input[type=text]{
+          -moz-border-radius: 5px;
+          -webkit-border-radius: 5px;
+          -o-border-radius: 5px;
+          -ms-border-radius: 5px;
+          border-radius: 5px;
+          background-color:#fff;
+         border:1px medium #000 ;
+          border-bottom-width: 1;
+          color:#323232;
+          padding:12px 90px 11px 10px;
+          
+         margin:0 auto;
+          font: 13px/13px 'Lato', cursive;
+          height: 29px;
+          width:210px;
+		  opacity:0.8;
+		  
+        }
+        
+footer #footer-inner input:focus[type=text]{
+            background-color:#FFF;
+          }
+          
+footer #footer-inner button{
+          -moz-border-radius: 5px;
+          -webkit-border-radius: 5px;
+          -o-border-radius: 5px;
+          -ms-border-radius: 5px;
+          border-radius: 5px;
+          height: 40px;
+		  width:100px;
+          padding: 0 0px;
+          display: inline-block;
+          color: #fff;
+		  border:none;
+		  background-color:#323232;
+          cursor: pointer;
+          font: 16px/18px 'Lato', cursive;
+          position:absolute;
+          left:205px;
+          top:7px;
+		  opacity:0.5;
+        }
+        
+footer #footer-inner button:hover{
+            color: #FFFFFF;
+            background: -moz-linear-gradient(top, #67af12, #4f930e); 
+            background: -webkit-gradient(linear, 0 0, 0 bottom, from(#67af12), to(#4f930e));
+            background: -webkit-linear-gradient(top, #67af12,#4f930e);
+            background: -o-linear-gradient(top, #67af12,#4f930e);
+            background: -ms-linear-gradient(top, #67af12,#4f930e);
+            background: linear-gradient(top, #67af12,#4f930e);
+			opacity:1;
+          }
+		  
+
+
+.userMessage{
+	height:0px;
+	text-align:center;
+	padding: 10px 0px 0px 0px;
+	font-family: 'Lato', cursive;
+	color: #525252;
+	font-size: 14px;
+	font-weight:normal;
+	opacity: 0.5; 	
+}	
+	
+/* End Css - :) */
